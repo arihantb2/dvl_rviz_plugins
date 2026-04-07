@@ -1,0 +1,10 @@
+<library path="dvl_rviz_plugins">
+  <class name="dvl_rviz_plugins/DvlDisplay"
+         type="dvl_rviz_plugins::DvlDisplay"
+         base_class_type="rviz_common::Display">
+    <description>
+      Visualizes marine_acoustic_msgs/msg/Dvl messages with a velocity arrow,
+      acoustic beam lines, and a velocity covariance ellipsoid.
+    </description>
+  </class>
+</library>
